@@ -1,0 +1,33 @@
+.logo {
+  margin: 50px auto;
+  display: block;
+  color: red;
+}
+
+:root {
+  --bs-body-bg: rgb(248, 241, 253);
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.image-fixer img {
+  object-fit: contain;
+  height: 300px;
+}
+
+.image-fixer .card {
+  max-width: 450px;
+}
+footer {
+  background-image: linear-gradient(to bottom, #1a1d20ab 75%, #003564);
+}
